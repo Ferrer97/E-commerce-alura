@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AluraGeek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/form.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <section class="header__section">
+        <div class="header__div">
+          <img src="./assets/Vector.png" alt="logo" />
+          <h5 class="header__name">
+            Alura <span class="header__name header__name--color">Geek</span>
+          </h5>
+        </div>
+        <input
+          class="header__input"
+          type="search"
+          placeholder="¿Qué deseas buscar?"
+        />
+      </section>
+    </header>
+    <main class="main">
+      <section class="loging">
+        <h1 class="loging__heading">Iniciar Sesion</h1>
+        <form class="loging__form">
+          <input
+            class="loging__input"
+            type="emial"
+            placeholder="Escribe su correo eletronico"
+          />
+          <input
+            class="loging__input"
+            type="password"
+            placeholder="Escribe tu contraseña"
+          />
+          <a href="admin.html" class="btn btn--loging">Entrar</a>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__div">
+        <img src="./assets/Vector.png" alt="logo" />
+        <h2 class="header__name">
+          Alura <span class="header__name header__name--color">Geek</span>
+        </h2>
+      </div>
+
+      <section class="about">
+        <a class="about__link" href="#">Quienes Somos</a>
+        <a class="about__link" href="#">Politica de privacidad</a>
+        <a class="about__link" href="#">Programa defdelidad</a>
+        <a class="about__link" href="#">Nuestras tiendas</a>
+        <a class="about__link" href="#">Quiero ser franquiciado</a>
+        <a class="about__link" href="#">Anuncie aqui</a>
+      </section>
+
+      <form class="form">
+        <h3 class="form__text">Hable con nosotros</h3>
+        <label class="form__label" for="name">Nombre</label>
+        <input
+          class="form__input"
+          type="text"
+          id="name"
+          placeholder="Andre Lisboa"
+        />
+        <label class="form__label" for="text">Mensaje</label>
+        <textarea
+          class="form__input"
+          name="text"
+          id="text"
+          cols="30"
+          rows="10"
+          placeholder="Escribe aqui su mensaje"
+        ></textarea>
+        <input class="btn btn--form" type="button" value="Enviar mensaje" />
+      </form>
+    </footer>
+  </body>
+</html>
