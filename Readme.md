@@ -1,5 +1,5 @@
 # E-commerc Alura geek
 
-** Stack **
+**Stack**
 _HTML_
 _CSS_
